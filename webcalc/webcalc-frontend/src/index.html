@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>WebCalc</title>
+
+<script type="text/javascript">
+
+let value = 0;
+let x = 0;
+let y = 0;
+let operation = '';
+let op_complete = false;
+
+let proxyURL = "proxy.40208063.qpc.hal.davecutting.uk";
+
+function Display()
+{
+    document.getElementById('display').value = value;
+}
+
+function Clear()
+{
+    value = 0;
+    x = 0;
+    y = 0;
+    operation = '';
+    Display();
+}
+
+function NumClick(n)
+{
+  //Added handling in case error was returned.
+  if (isNaN(value) || op_complete) {
+    Clear();
+    value = n;
+    op_complete = false;
+  } else {
+    if (value == 0)
+        value = n;
+    else
+    {
+        value *= 10;
+        value += n;
+    }
+  }
+  Display();
+}
+
+function Plus()
+{
+    // No need for error handling here - handling all done in Equals() method.
+    Equals();
+    Display();
+    x = value;
+    value = 0;
+    operation = 'add';
+    Display();
+
+}
+
+function Minus()
+{
+    // if we have an outstanding operation resolve it
+    Equals();
+    Display();
+
+    x = value;
+    value = 0;
+    operation = 'subtract';
+    Display();
+}
+
+function Modulo()
+{
+    // if we have an outstanding operation resolve it
+    Equals();
+    Display();
+
+    x = value;
+    value = 0;
+    operation = 'modulo';
+
+    Display();
+}
+
+function Multiply()
+{
+  Equals();
+  Display();
+
+  x = value;
+  value = 0;
+  operation = 'multiply';
+
+  Display();
+}
+
+function Divide()
+{
+  Equals();
+  Display();
+
+  x = value;
+  value = 0;
+  operation = 'divide';
+
+  Display();
+}
+
+function Square()
+{
+  Equals();
+  Display();
+
+  x = value;
+  value = 0;
+  operation = 'square';
+
+  Display();
+}
+
+function Load()
+{
+  x = value;
+  value = 0;
+  operation = 'load';
+
+  Equals();
+  Display();
+}
+
+function Save()
+{
+  x = value;
+  value = 0;
+  operation = 'save';
+  Equals();
+  Display();
+}
+
+
+function Equals(backup="")
+{
+    if (operation == '')
+        return;
+
+    y = value;
+
+    let xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            var j = JSON.parse(this.response);
+            x=0;
+            y=0;
+            operation='';
+            op_complete = true;
+            value = j.answer;
+            console.log(j.answer);
+            Display();
+        } 
+    };
+    xhttp.open("GET","http://"+backup+proxyURL+"?op="+operation+"&x="+x+"&y="+y);
+    xhttp.send();
+    xhttp.onerror = function() {
+      // Catch error and use backup proxy if available, if not display on front end
+      if (backup == "backup.") {
+        console.log("Both servers down. Try again later")
+        value = "Proxy Server Down"
+        Display();
+        return;
+      } else {
+        console.log("Using backup proxy server...")
+        Equals('backup.')
+        backup =""
+      }
+    };
+    return;
+
+}
+
+</script>
+
+<style type="text/css">
+body  {
+    font-size: 150%;
+    font-family: monospace;
+}
+
+#logo
+{
+    font-family: Calibri, sans-serif;
+    font-weight: lighter;
+    color: #505050;
+    margin: 0.5em;
+}
+
+#calculator
+{
+    text-align: center;
+    margin-top: 1em;
+}
+
+#display {
+    font-size: 120%;
+    padding: 0.2em;
+    margin: 0.2em;
+    font-family: monospace;
+    letter-spacing: 0.1em;
+}
+
+.calc1 {
+    border: solid #d0d0d0 1px;
+    background-color: #f0f0f0;
+    padding: 1.5em;
+    margin: 1em;
+    width: 80px;
+    height: 80px;
+}
+</style>
+
+</head>
+<body>
+<div id="calculator">
+    <div id="logo">
+        Casidave Calcutron
+    </div>
+    <div>
+        <input type="text" id="display" readonly="1" value="">
+    </div>
+    <div>
+        <button class="calc1" onclick="Clear();">C</button>
+        <button class="calc1" onclick="Square();">**</button>
+        <button class="calc1" onclick="Modulo();">%</button>
+        <button class="calc1" onclick="Divide();">/</button>
+    </div>
+    <div>
+        <button class="calc1" onclick="NumClick(7);">7</button>
+        <button class="calc1" onclick="NumClick(8);">8</button>
+        <button class="calc1" onclick="NumClick(9);">9</button>
+        <button class="calc1" onclick="Multiply();">x</button>
+    </div>
+    <div>
+        <button class="calc1" onclick="NumClick(4);">4</button>
+        <button class="calc1" onclick="NumClick(5);">5</button>
+        <button class="calc1" onclick="NumClick(6);">6</button>
+        <button class="calc1" onclick="Minus();">-</button>
+    </div>
+    <div>
+        <button class="calc1" onclick="NumClick(1);">1</button>
+        <button class="calc1" onclick="NumClick(2);">2</button>
+        <button class="calc1" onclick="NumClick(3);">3</button>
+        <button class="calc1" onclick="Plus();">+</button>
+    </div>
+    <div>
+        <button class="calc1" onclick="NumClick(0);">0</button>
+        <button class="calc1" onclick="Load();">Load</button>
+        <button class="calc1" onclick="Save();">Save</button>
+        <button class="calc1" onclick="Equals();">=</button>
+    </div>
+</div>
+</body>
+
+<script type="text/javascript">
+    value = 0000;
+    Display();
+</script>
+
+</html>
