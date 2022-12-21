@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "N+ihx06zoDzJzmhOL2tFwYQRuMJnyD7X6kv7peTnj/0DpzQscey4YH8XZ0GoEcW+zabERLbsdhMvlP7zkvFUcQ==",
+  "success": true,
+  "projectFilePath": "/Users/johnmcgurk/Documents/4th Year/Semester 2/CSC3065 Cloud Computing/Assignment 2/webcalc-square/webcalc-square.csproj",
+  "expectedPackageFiles": [
+    "/Users/johnmcgurk/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

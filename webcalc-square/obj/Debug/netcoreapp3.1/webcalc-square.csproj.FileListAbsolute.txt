@@ -1,0 +1,41 @@
+/Users/johnmcgurk/Visual Studio Projects/webcalc-square/webcalc-square/obj/Debug/netcoreapp3.1/webcalc-square.AssemblyInfoInputs.cache
+/Users/johnmcgurk/Visual Studio Projects/webcalc-square/webcalc-square/obj/Debug/netcoreapp3.1/webcalc-square.AssemblyInfo.cs
+/Users/johnmcgurk/Visual Studio Projects/webcalc-square/webcalc-square/obj/Debug/netcoreapp3.1/webcalc-square.csproj.CoreCompileInputs.cache
+/Users/johnmcgurk/Visual Studio Projects/webcalc-square/webcalc-square/obj/Debug/netcoreapp3.1/webcalc-square.MvcApplicationPartsAssemblyInfo.cache
+/Users/johnmcgurk/Visual Studio Projects/webcalc-square/webcalc-square/bin/Debug/netcoreapp3.1/appsettings.Development.json
+/Users/johnmcgurk/Visual Studio Projects/webcalc-square/webcalc-square/bin/Debug/netcoreapp3.1/appsettings.json
+/Users/johnmcgurk/Visual Studio Projects/webcalc-square/webcalc-square/bin/Debug/netcoreapp3.1/webcalc-square.deps.json
+/Users/johnmcgurk/Visual Studio Projects/webcalc-square/webcalc-square/bin/Debug/netcoreapp3.1/webcalc-square.runtimeconfig.json
+/Users/johnmcgurk/Visual Studio Projects/webcalc-square/webcalc-square/bin/Debug/netcoreapp3.1/webcalc-square.runtimeconfig.dev.json
+/Users/johnmcgurk/Visual Studio Projects/webcalc-square/webcalc-square/bin/Debug/netcoreapp3.1/webcalc-square.dll
+/Users/johnmcgurk/Visual Studio Projects/webcalc-square/webcalc-square/bin/Debug/netcoreapp3.1/webcalc-square.pdb
+/Users/johnmcgurk/Visual Studio Projects/webcalc-square/webcalc-square/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/Users/johnmcgurk/Visual Studio Projects/webcalc-square/webcalc-square/obj/Debug/netcoreapp3.1/staticwebassets/webcalc-square.StaticWebAssets.Manifest.cache
+/Users/johnmcgurk/Visual Studio Projects/webcalc-square/webcalc-square/obj/Debug/netcoreapp3.1/staticwebassets/webcalc-square.StaticWebAssets.xml
+/Users/johnmcgurk/Visual Studio Projects/webcalc-square/webcalc-square/obj/Debug/netcoreapp3.1/scopedcss/bundle/webcalc-square.styles.css
+/Users/johnmcgurk/Visual Studio Projects/webcalc-square/webcalc-square/obj/Debug/netcoreapp3.1/webcalc-square.RazorTargetAssemblyInfo.cache
+/Users/johnmcgurk/Visual Studio Projects/webcalc-square/webcalc-square/obj/Debug/netcoreapp3.1/webcalc-square.csproj.CopyComplete
+/Users/johnmcgurk/Visual Studio Projects/webcalc-square/webcalc-square/obj/Debug/netcoreapp3.1/webcalc-square.dll
+/Users/johnmcgurk/Visual Studio Projects/webcalc-square/webcalc-square/obj/Debug/netcoreapp3.1/webcalc-square.pdb
+/Users/johnmcgurk/Visual Studio Projects/webcalc-square/webcalc-square/obj/Debug/netcoreapp3.1/webcalc-square.genruntimeconfig.cache
+/Users/johnmcgurk/Documents/4th Year/Semester 2/CSC3065 Cloud Computing/Assignment 2/webcalc-square/bin/Debug/netcoreapp3.1/appsettings.Development.json
+/Users/johnmcgurk/Documents/4th Year/Semester 2/CSC3065 Cloud Computing/Assignment 2/webcalc-square/bin/Debug/netcoreapp3.1/appsettings.json
+/Users/johnmcgurk/Documents/4th Year/Semester 2/CSC3065 Cloud Computing/Assignment 2/webcalc-square/bin/Debug/netcoreapp3.1/webcalc-square.deps.json
+/Users/johnmcgurk/Documents/4th Year/Semester 2/CSC3065 Cloud Computing/Assignment 2/webcalc-square/bin/Debug/netcoreapp3.1/webcalc-square.runtimeconfig.json
+/Users/johnmcgurk/Documents/4th Year/Semester 2/CSC3065 Cloud Computing/Assignment 2/webcalc-square/bin/Debug/netcoreapp3.1/webcalc-square.runtimeconfig.dev.json
+/Users/johnmcgurk/Documents/4th Year/Semester 2/CSC3065 Cloud Computing/Assignment 2/webcalc-square/bin/Debug/netcoreapp3.1/webcalc-square.dll
+/Users/johnmcgurk/Documents/4th Year/Semester 2/CSC3065 Cloud Computing/Assignment 2/webcalc-square/bin/Debug/netcoreapp3.1/webcalc-square.pdb
+/Users/johnmcgurk/Documents/4th Year/Semester 2/CSC3065 Cloud Computing/Assignment 2/webcalc-square/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/Users/johnmcgurk/Documents/4th Year/Semester 2/CSC3065 Cloud Computing/Assignment 2/webcalc-square/obj/Debug/netcoreapp3.1/webcalc-square.AssemblyInfoInputs.cache
+/Users/johnmcgurk/Documents/4th Year/Semester 2/CSC3065 Cloud Computing/Assignment 2/webcalc-square/obj/Debug/netcoreapp3.1/webcalc-square.AssemblyInfo.cs
+/Users/johnmcgurk/Documents/4th Year/Semester 2/CSC3065 Cloud Computing/Assignment 2/webcalc-square/obj/Debug/netcoreapp3.1/webcalc-square.csproj.CoreCompileInputs.cache
+/Users/johnmcgurk/Documents/4th Year/Semester 2/CSC3065 Cloud Computing/Assignment 2/webcalc-square/obj/Debug/netcoreapp3.1/webcalc-square.MvcApplicationPartsAssemblyInfo.cache
+/Users/johnmcgurk/Documents/4th Year/Semester 2/CSC3065 Cloud Computing/Assignment 2/webcalc-square/obj/Debug/netcoreapp3.1/staticwebassets/webcalc-square.StaticWebAssets.Manifest.cache
+/Users/johnmcgurk/Documents/4th Year/Semester 2/CSC3065 Cloud Computing/Assignment 2/webcalc-square/obj/Debug/netcoreapp3.1/staticwebassets/webcalc-square.StaticWebAssets.xml
+/Users/johnmcgurk/Documents/4th Year/Semester 2/CSC3065 Cloud Computing/Assignment 2/webcalc-square/obj/Debug/netcoreapp3.1/scopedcss/bundle/webcalc-square.styles.css
+/Users/johnmcgurk/Documents/4th Year/Semester 2/CSC3065 Cloud Computing/Assignment 2/webcalc-square/obj/Debug/netcoreapp3.1/webcalc-square.RazorTargetAssemblyInfo.cache
+/Users/johnmcgurk/Documents/4th Year/Semester 2/CSC3065 Cloud Computing/Assignment 2/webcalc-square/obj/Debug/netcoreapp3.1/webcalc-square.csproj.CopyComplete
+/Users/johnmcgurk/Documents/4th Year/Semester 2/CSC3065 Cloud Computing/Assignment 2/webcalc-square/obj/Debug/netcoreapp3.1/webcalc-square.dll
+/Users/johnmcgurk/Documents/4th Year/Semester 2/CSC3065 Cloud Computing/Assignment 2/webcalc-square/obj/Debug/netcoreapp3.1/webcalc-square.pdb
+/Users/johnmcgurk/Documents/4th Year/Semester 2/CSC3065 Cloud Computing/Assignment 2/webcalc-square/obj/Debug/netcoreapp3.1/webcalc-square.genruntimeconfig.cache
+/Users/johnmcgurk/Documents/4th Year/Semester 2/CSC3065 Cloud Computing/Assignment 2/webcalc-square/obj/Debug/netcoreapp3.1/webcalc-square.csprojAssemblyReference.cache
